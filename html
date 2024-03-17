@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Control</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Home Control Interface</h1>
+        <div class="device-controls">
+            
+            <div class="fanwa">
+                <!-- <button id="fan-on">Turn Fan On</button>
+                <button id="fan-off">Turn Fan Off</button> -->
+                <!-- <h3 style="display: flex; justify-content: center;">Control Speed Fan</h3> -->
+                <input type="range" id="light-slider" min="0" max="5" value="5">
+                <div style="display: inline; align-items: center;" id="status-message"></div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            
+            <div class="bulbwa">
+                <button id="bulb-on">Turn bulb On</button>
+                <button id="bulb-off">Turn bulb Off</button>
+                <!-- <input type="range" id= "switch" min="0" max="1"> -->
+                <div style="display: inline; align-items: center;" id="status-message"></div>
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            
+            <div class="ledbwa">
+                <!-- <button id="bulb-on">Turn led On</button> -->
+                <!-- <button id="bulb-off">Turn led Off</button> -->
+                <input type="range" id="light-slider" min="0" max="5" value="5">
+                <div id="status-message"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="acbwa">
+                <button id="ac-on">Turn Ac On</button>
+                <button id="ac-off">Turn Ac Off</button>
+                <input type="range" id="light-slider-ac" min="16" max="30" >
+                <div style="display:inline-table;align-content: flex-end;" id="status-message"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
